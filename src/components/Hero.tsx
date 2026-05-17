@@ -1,16 +1,15 @@
 import { motion } from 'motion/react';
 import { ChevronDown } from 'lucide-react';
 
-// 1. IMPORT THE IMAGE HERE
-// Assuming this file is at src/components/Hero.tsx, we go up one level (../) to reach assets
-import heroImage from '../assets/images/eye.png';
+// 1. We import the specific renamed image file
+import heroImage from '../assets/images/hero_eye_precision_1778999994235.png';
 
 export default function Hero() {
   return (
     <section id="home" className="relative h-screen w-full flex flex-col items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        {/* 2. USE THE IMPORTED VARIABLE HERE */}
+        {/* 2. We pass the imported variable to the src attribute */}
         <img 
           src={heroImage} 
           alt="Precision Vision" 
