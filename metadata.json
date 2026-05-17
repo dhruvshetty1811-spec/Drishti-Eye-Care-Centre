@@ -1,0 +1,8 @@
+{
+  "name": "Drishti Eye Care - Dr. Sharath Shetty",
+  "description": "Premium eye care and ophthalmology services by Dr. Sharath Shetty. Specialized in LASIK, Cataract, and Glaucoma with a high-end, patient-centric approach.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
