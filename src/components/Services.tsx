@@ -1,6 +1,9 @@
 import { motion } from 'motion/react';
 import { Eye, Zap, Activity, Baby, Crosshair, Search } from 'lucide-react';
 
+// 1. IMPORT THE IMAGE HERE
+import medicalTechImage from '../assets/images/premium_medical_tech_1779000013169.png';
+
 const services = [
   {
     title: "Pediatric Ophthalmology",
@@ -79,8 +82,9 @@ export default function Services() {
         </div>
 
         <div className="mt-24 h-[50vh] w-full rounded-2xl overflow-hidden relative grayscale hover:grayscale-0 transition-all duration-1000">
+          {/* 2. USE THE IMPORTED VARIABLE HERE */}
           <img 
-            src="/src/assets/images/premium_medical_tech_1779000013169.png" 
+            src={medicalTechImage} 
             alt="Medical Technology" 
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
