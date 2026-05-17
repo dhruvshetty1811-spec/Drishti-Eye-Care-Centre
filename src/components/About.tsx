@@ -1,5 +1,9 @@
 import { motion } from 'motion/react';
 
+// 1. IMPORT THE IMAGE HERE
+// Ensure the extension (.jpg or .png) exactly matches the file in your assets/images folder!
+import drShettyImage from '../assets/images/7.jpg';
+
 export default function About() {
   return (
     <section id="about" className="py-32 px-6 lg:px-24 bg-white text-dark-bg min-h-screen flex items-center">
@@ -12,8 +16,9 @@ export default function About() {
           className="relative order-2 lg:order-1"
         >
           <div className="aspect-[4/5] overflow-hidden rounded-2xl transition-all duration-700 shadow-2xl">
+            {/* 2. USE THE IMPORTED VARIABLE HERE */}
             <img 
-              src="/src/assets/images/7.jpg" 
+              src={drShettyImage} 
               alt="Dr. Sharath Shetty" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
