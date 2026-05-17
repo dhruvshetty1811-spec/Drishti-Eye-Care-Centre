@@ -126,7 +126,7 @@ export default function Contact() {
                 </div>
                 <h4 className="font-display text-xl mb-4">Connect Your Scheduler</h4>
                 <p className="text-white/30 text-sm mb-8 leading-relaxed">
-                  To enable direct patient booking, please add your Calendly URL to the <code className="bg-white/10 px-1 rounded text-white">VITE_CALENDLY_URL</code> variable in your workspace environment settings.
+                  To enable direct patient booking, please add your Calendly URL to the <code className="bg-white/10 px-1 rounded text-white">https://calendly.com/drishtieyeclinic/10min</code> variable in your workspace environment settings.
                 </p>
                 <button 
                   className="w-full py-4 bg-white text-dark-bg font-display rounded-full text-sm tracking-widest uppercase font-semibold hover:bg-premium-teal hover:text-white transition-all duration-300 flex items-center justify-center gap-2"
