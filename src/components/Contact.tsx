@@ -3,7 +3,10 @@ import { Phone, MapPin, Mail, Calendar, ExternalLink, Settings, Globe } from 'lu
 import { InlineWidget } from 'react-calendly';
 
 export default function Contact() {
-  const calendlyUrl = import.meta.env.VITE_CALENDLY_URL || '';
+  const calendlyUrl = <!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/drishtieyeclinic/10min" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->;
 
   return (
     <section id="contact" className="py-32 px-6 bg-dark-bg text-white">
